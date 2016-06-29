@@ -1,0 +1,60 @@
+<div class="container">
+    <header class="user-info">
+        <img class="avatar" src="images/avatar.png">
+        <h1 data-bind="text:nickname"></h1>
+        <p><img class="js-svg" src="images/svg/mobile.svg"><label data-bind="text:phone"></label></p>
+    </header>
+
+    <section class="user-meta">
+        <div class="item">
+            收益：<strong data-bind="text:money">998</strong>元
+        </div>
+        <div class="item">
+            会员：<strong data-bind="text:funs">289</strong>位
+        </div>
+    </section>
+
+    <section class="ui-media_box ui-media_small_appmsg user-navi">
+        <nav class="ui-cells ui-cells_access">
+            <a href="admin-coupons.html" class="ui-cell">
+                <div class="ui-cell_hd">
+                    <img src="images/icon-1.png">
+                </div>
+                <div class="ui-cell_bd ui-cell_primary">
+                    <p>优惠券</p>
+                </div>
+                <span class="ui-cell_ft" data-bind="text:coupons">2</span>
+            </a>
+
+            <a href="admin-orders.html" class="ui-cell">
+                <div class="ui-cell_hd">
+                    <img src="images/icon-2.png">
+                </div>
+                <div class="ui-cell_bd ui-cell_primary">
+                    <p>订单</p>
+                </div>
+                <span class="ui-cell_ft" data-bind="text:orders">12</span>
+            </a>
+
+            <a href="#!product" class="ui-cell">
+                <div class="ui-cell_hd">
+                    <img src="images/icon-3.png">
+                </div>
+                <div class="ui-cell_bd ui-cell_primary">
+                    <p>商品</p>
+                </div>
+                <span class="ui-cell_ft" data-bind="text:products">2</span>
+            </a>
+
+            <a href="#!setting" class="ui-cell">
+                <div class="ui-cell_hd">
+                    <img src="images/icon-4.png">
+                </div>
+                <div class="ui-cell_bd ui-cell_primary">
+                    <p>设置</p>
+                </div>
+                <span class="ui-cell_ft"></span>
+            </a>
+        </nav>
+    </section>
+</div>
